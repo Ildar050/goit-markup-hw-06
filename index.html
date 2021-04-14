@@ -502,8 +502,46 @@
                 <svg class="icon-close" >
                     <use href="./images/icons.svg#icon-closex">
                     </use>
-                </svg>
+                    </svg>
             </button>
+            <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="modal-form">
+                <div class="form-data">
+                <div class="modal-box">
+                    <label for="name" class="label">Имя</label>
+                    <input type="text" name="name" id="name" autocomplete="off" class="input">
+                    <svg class="icon-form name">
+                        <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+                <div class="modal-box">
+                    <label for="tel" class="label">Телефон</label>
+                    <input type="tel" name="tel" id="tel" autocomplete="off" class="input">
+                    <svg class="icon-form tel">
+                        <use href="./images/icons.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+                
+                <div class="modal-box">
+                    <label for="mail" class="lable">Почта</label>
+                    <input type="email" name="mail" id="mail" autocomplete="off" class="input">
+                    <svg class="icon-form email">
+                        <use href="./images/icons.svg#icon-email-black"></use>
+                    </svg>
+                </div>
+                
+                <label for="comment" class="label">Комментарий</label>
+                <textarea name="comment" id="comment" class="textarea" placeholder="Введите текст"></textarea>
+                
+                <div class="checkbox">
+                    <input type="checkbox" name="policy" id="policy" class="icon-input visually-hidden">
+                    <label for="policy" class="label-check">Соглашаюсь с рассылкой и принимаю <a href="" class="policy-link">Условия договора</a></label>
+                              
+                </div>
+                </div>
+                
+                <button type="submit" class="btn-primary">Отправить</button>
+            </form>
         </div>
 
     </div>

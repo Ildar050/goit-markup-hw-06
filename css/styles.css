@@ -1032,3 +1032,10 @@ font-weight: 700;
   width: 200px;
   height: 50px;
 }
+
+.icon-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
